@@ -1,0 +1,302 @@
+<!-- explore mdn for extra knowledge -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">          <!-- {boiler plate code } -->
+    <title>Document</title>
+
+    <!-- this is the linking tag used for linking css tag in html file for styling  -->
+
+    <link rel="stylesheet" href="style.css">
+
+<style>
+    pre{
+        color: pink;
+    }
+
+#color{
+background-color: blue;
+}
+</style>
+</head>
+
+<body>
+    <h1>Level 1</h1>
+
+    <!-- there are basically three types through which we can add styles  -->
+    <!-- first is inline type through which we can simply write the property and value in the same line -->
+
+     <p style="color: blue;">Welcome to code world!</p>   <!-- inline type -->
+
+     <!-- second type of style adding is style tag -->
+     <!-- style tag is created separately in head tag -->
+
+     <pre>This is the example of style tag. </pre>
+     
+     <!-- third one and the most important type for adding styling is creating an external stylesheet  -->
+
+<h1>This is the example of color style.</h1>
+<h2 id="first_id">This is the example of id.</h2>
+
+<p class="myclass">THIS IS THE EXAMPLE OF CLASS SELECTOR.</p>
+<H2 class="myclass">this is the example of class selector.</H2>
+<button>Click me!</button>
+<hr><hr>
+<H3 id="ps">PRACTICE SET 1</H3>
+
+<!-- for creating div there are some shortcuts 
+if you want to create a div with class then simply write (.classname) and press enter
+<div class="classname"></div>
+if you want to create div with id then simply write (#idname) and press enter -->
+<!-- <div id="idname"></div> -->
+
+<div id="box">
+    This is the example of question 1 in practice set 1.
+</div>
+
+<h1 class="heading">This is the example of question 2</h1>
+<h2 class="heading">THIS IS THE EXAMPLE OF QUESTION 2</h2>
+<h3 class="heading">this is the example of question 2</h3>
+
+<!-- priority order of those is higher which are written in last-->
+
+<button id="color" style ="background-color: pink;">
+    USE ME!
+</button>
+
+<!-- example of text align  -->
+
+<p id="left">this is the example of text align in which left text align property is selected</p>
+<p id="center">this is the example of text align in which center text align property is selected</p>
+<p id="right">this is the example of text align in which right text align property is selected</p>
+
+<!-- example of text decoration  -->
+
+<p id="underline">this is the example of underline text decoration .</p>
+<p id="overline">this is the example of overline text decoration</p>
+<p id="linethrough">this is the example of line through text decoration</p>
+<a href="https:www.google.com">click me!</a>
+
+<!-- example of font weight -->
+
+<p id="bold">this is example of bold</p>
+<p id="lighter">this is example of lighter</p>
+<p id="bolder">this is example of bolder</p>
+<p id="normal">this is example of normal</p>
+
+<!-- example of font family  -->
+
+<p id="font">this is the example of font family</p>
+
+<!-- example of font size  -->
+
+<p id="fontsize">this is the just the example of font size.</p>
+
+<!-- example of line height  -->
+
+<p id="lineheight">this is just an example of line height property.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur at dolorum animi! Molestias in sint quos ratione. Non dicta, officia nostrum consequuntur quidem delectus, iste debitis sapiente dolor officiis ut?
+</p>
+
+<!-- example of text transform  -->
+
+<p id="uppercase">this is just the example of uppercase</p>
+<p id="lowercase">this is just the example of lowercase</p>
+<p id="capitalise">this is just the example of capitalise.</p>
+<hr><hr>
+
+<p id="practice">PRACTICE SET 2</p>
+
+<!-- practice set 2 question 1  -->
+
+<h4 id="nothing">heading</h4 >
+
+<!-- practice set 2 question 2  -->
+
+<p id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam doloribus cum qui maxime? Nemo voluptatibus, est corporis, facilis impedit obcaecati soluta rem dicta molestias explicabo repellendus aperiam nihil laborum consequatur.</p>
+
+<!-- practice set 2 question 3  -->
+
+<div id="outer">
+    outer
+    <div id="inner">
+        inner
+    </div>
+</div>
+<hr><hr>
+<br>
+<h1>Level 2</h1>
+
+<p id="box">Box model in css</p>
+<img src="data:image/png;base64,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" alt="box model css">
+
+<!-- this indicate that every element has a box form  when we inspect it -->
+
+<h1>Heading</h1>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus accusamus debitis obcaecati et dolore nesciunt beatae odit, rerum cum eos amet odio consequuntur repudiandae eaque maiores esse impedit modi adipisci.</p>
+<button id="button">Press me!</button>
+<div>
+    this is just a div.
+</div>
+
+<!-- now inspect the above written things you see that a rectangular box is allocated to each element  -->
+
+<div id="css">
+    css box model
+</div>
+
+<!-- example of margin  -->
+
+<div id="margin">
+    this is the example of margin 
+</div>
+<p id="psthree">Practice set 3</p>
+
+<!-- practice set 3 question 1  -->
+
+<div id="setthree">
+
+</div>
+
+<p id="other">ANOTHER HOMEWORK TYPE</p>
+
+<div id="one">
+    <div id="two">
+        
+    </div>
+    <div id="three">
+
+    </div>
+    <div id="four">
+
+    </div>
+
+</div>
+
+<p id="navbar">Creation of navigation bar</p>
+
+<!-- navigation bar is the top most layer where a lot of options are given like home courses settings etc,  -->
+ 
+<!-- if things are created in the same div then all the things are exist in the same line -->
+
+<div id="ncr">
+
+    <a id="logo" href="#">amazon.in</a>
+    <a href="#">Account</a>
+    <a href="#">My Cart </a>
+    <a href="#">Contact us.</a>
+   <input type="text" placeholder="search amazon.in">
+   <button>Search</button>
+
+</div>
+<br><br><br><br><hr><hr><br><br><br>
+
+<!-- example of display property  -->
+<!-- in display inline there is a drawback that when we set margin then it is set only from left and right not from top and bottom  -->
+
+ <div id="boxone" style="background-color: green;">box 1</div>         <!-- example of inline display -->
+<div id="boxtwo" style="background-color: blue;">box 2</div>           <!-- example of inline display -->
+<br><br><br>
+<div id="boxthree" style="background-color: red;">box 3</div>             <!-- example of inline-block display -->
+<br><br><br><br><br><hr><hr><br><br>
+<br><br>
+
+<div>
+    this is just the example of block.
+</div>
+    <button>inline me!</button>
+    <br><br>
+
+   
+
+   <table>
+    <tr>
+        <th>
+            NAME 
+        </th>
+        <th>
+            Roll No.
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Aman Dwivedi 
+        </td>
+        <td>
+                 09
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Nikhil Dwivedi 
+        </td>
+        <td>
+                 10
+        </td>
+    </tr>
+   </table>
+
+<div id="aman">
+
+</div>
+<hr><hr>
+<div id="psfour">
+    Practice set 4 
+</div>
+<br><br>
+
+ 
+<header>
+    <div id="new" style="background-color: rgb(4, 4, 4) ;">
+        <a id="main" href="#">amazon.in</a>
+        <a href="#">Account</a>
+        <a href="#">My cart</a>
+        <a href="#">Contact us</a>
+        <input type="text"placeholder="Search here">
+        <button>search</button>
+     </div>
+</header>
+<br>
+<div id="content">
+    <div class="contentbox" style="background-color: rgba(255,0,0,0.5);" ></div>
+    <div class="contentbox" style="background-color: rgba(0,255,0,0.5);" ></div>
+    <div class="contentbox" style="background-color: rgba(0,0,255,0.5);"></div>
+
+</div>
+<br>
+<footer>
+    All copyrights are reserved to amazon.in
+    <br>
+</footer>
+<hr><hr>
+
+<!-- percentage units in css ( relative units ) -->
+
+<div id="parent">
+    <div id="child">
+        
+    </div>
+</div>
+
+<!-- example of em unit  -->
+ 
+<div id="emone">
+    emone 
+    <div id="emtwo">
+     emtwo 
+    </div>
+</div>
+<hr><hr>
+
+<p id="position">POSITION PLAYGROUND</p>
+<div class="pgone">
+    <div id="pgtwo">Playground two</div>
+    <div id="pgthree">Playground three </div>
+    <div id="pgfour">Playground four</div>
+    <div id="pgfive">Playground five </div>
+</div>
+
+</body>
+</html>
